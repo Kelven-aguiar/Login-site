@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  font-family: "Roboto"; 
+}
+body{
+  background-color:aliceblue;
+}
+
+form{
+  background-color:rgb(255, 255, 255);
+  width: 270px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 9%;
+  margin-left: 22%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+}
+h2{
+  margin-top: 12%;
+  margin-bottom: 8%;
+
+}
+
+input{
+  width: 75%;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+  border: 2px solid black;
+  padding: 2px 10px 2px;
+}
+
+input:focus{
+ border-color: #1100ff;
+ box-shadow: 0 0 10px #719ECE;
+ border: 10px;
+}
+
+span{
+  margin-right: 55%;
+  margin-bottom: 4px;
+}
+.spawn-login{
+  margin-right: 53%;
+  margin-bottom: 4px;
+}
+.span-senha{
+  margin-top: 5%;
+}
+
+.buttons{
+  display: flex;
+  margin-top: 9%;
+  gap: 10%;
+  margin-left: 2%;
+
+}
+
+.button-entrar{
+  align-items: center;
+  height: 35px;
+  width: 86px;
+  background: rgb(43, 144, 202);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+}
+.button-entrar:hover{
+  background: rgb(8, 105, 161);
+}
+.button-registrar{
+  align-items: center;
+  height: 35px;
+  width: 95px;
+  background: rgb(43, 144, 202);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+}
+.button-registrar:hover{
+  background: rgb(8, 105, 161);
+}
+.imglogin{
+  width: 700px;
+  height: 700px;
+}
+.page{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
